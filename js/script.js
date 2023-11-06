@@ -8,7 +8,6 @@ var button = document.getElementById('entrybutton');
     document.getElementById('textoutput').innerHTML = textbox.value;
     alert("Leen Mobarki: This is a test " + textbox.value);
   }
-
   button.addEventListener('click', showMeText);
   }
 
