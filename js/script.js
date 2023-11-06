@@ -3,8 +3,8 @@ function init(){
 
   function showMeText(){
     var textbox = document.getElementById('entryinput');
-    document.getElementById('textoutput').innerHTML = showMeText;
-    alert("Leen Mobarki: " + showMeText);
+    document.getElementById('textoutput').innerHTML = textbox.value;
+    alert("Leen Mobarki: " + textbox.value);
   }
 
   button.addEventListener('click', showMeText);
